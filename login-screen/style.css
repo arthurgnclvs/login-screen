@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(30deg, #6461A0, #314CB6);
+    background-attachment: fixed;
+}
+
+main{
+    margin: 100px auto auto auto;
+    background-color: rgba(255, 255, 255, 0.295);
+    max-width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 3px 2px rgba(0, 0, 0, 0.315);
+}
+
+main > h1{
+    font: 400 normal 38px 'Work Sans';
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+#user{
+    font: 400 normal 16px 'Work Sans';
+    display: block;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    color: white;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    background-color: #4949ff34;
+    border-style: solid;
+    border-color: rgba(66, 66, 170, 0.349);
+    border-radius: 7px;
+}
+
+::placeholder{
+    color: white;
+    font: 400 normal 16px 'Work Sans';
+}
+
+#password{
+    font: 400 normal 16px 'Work Sans';
+    display: block;
+    margin: 10px auto 0 auto;
+    text-align: center;
+    color: white;
+    outline: none;
+    height: 40px;
+    width: 300px;
+    background-color: #4949ff34;
+    border-style: solid;
+    border-color: rgba(66, 66, 170, 0.349);
+    border-radius: 7px;
+}
+
+#signup{
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    border-style: solid;
+    background-image: linear-gradient(180deg, #8197db, #6a86d8, #4f6abb);
+    font: 400 normal 16px 'Work Sans';
+    color: white;
+}
+
+#divpass{
+    position: relative;
+}
+
+#showpass{
+    position: absolute;
+    right: 110px;
+    top: 7px;
+    width: 20px;
+    height: 30px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+input:hover{
+    cursor: text;
+    color: white;
+}
+
+button:hover{
+    cursor: pointer;
+}
